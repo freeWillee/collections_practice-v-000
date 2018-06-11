@@ -60,4 +60,5 @@ def sum_array(array)
   array.collect do |integer|
     sum += integer
   end
+  return sum
 end
