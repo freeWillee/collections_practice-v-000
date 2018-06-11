@@ -12,5 +12,4 @@ def sort_array_desc(int_array)
     elsif a < b
       1
     end
-
 end
