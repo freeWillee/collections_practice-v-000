@@ -14,3 +14,7 @@ def sort_array_desc(int_array)
     end
   end
 end
+
+def sort_array_char_count
+  
+end
