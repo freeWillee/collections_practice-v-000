@@ -43,9 +43,9 @@ def reverse_array(int_array)
     if a == b
       0
     elsif a > b
-      -1
-    elsif a < b
       1
+    elsif a < b
+      -1
     end
   end
 end
