@@ -36,7 +36,7 @@ describe 'collections practice' do
       expect(swap_elements_from_to(["a", "b", "c"],0,2)).to eq(["c", "b", "a"])
     end
     it 'moves the provided index to a destination index provided of an array (2nd test)' do
-      expect(swap_elements_from_to(["a", "b", "c"],2,1)).to eq(["c", "b", "a"])
+      expect(swap_elements_from_to(["a", "b", "c"],2,1)).to eq(["a", "c", "b"])
     end
   end
 
