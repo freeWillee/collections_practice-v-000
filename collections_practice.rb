@@ -48,3 +48,9 @@ def kesha_maker(string_array)
     kesha_array << (item[2] = "$")
   end
 end
+
+def find_a(array)
+  array.find do |item|
+    item.start_with? ("a")
+end
+
