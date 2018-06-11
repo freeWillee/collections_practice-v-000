@@ -54,3 +54,10 @@ def find_a(array)
     item.start_with? ("a")
   end
 end
+
+def sum_array(array)
+  sum = 0
+  array.collect do |integer|
+    sum + integer
+  end
+end
