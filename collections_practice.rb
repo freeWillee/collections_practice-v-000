@@ -47,4 +47,5 @@ def reverse_array(int_array)
     elsif a < b
       1
     end
+  end
 end
