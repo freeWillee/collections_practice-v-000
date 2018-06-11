@@ -41,3 +41,9 @@ end
 def reverse_array(int_array)
   int_array.reverse
 end
+
+def kesha_maker(string_array)
+  kesha_array = []
+  string_array.each do |item|
+    kesha_array << (item[2] = "$")
+end
