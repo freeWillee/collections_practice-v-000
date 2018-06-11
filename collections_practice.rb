@@ -46,4 +46,5 @@ def kesha_maker(string_array)
   kesha_array = []
   string_array.each do |item|
     kesha_array << (item[2] = "$")
+  end
 end
