@@ -60,3 +60,12 @@ def sum_array(array)
     sum + integer
   end
 end
+
+def add_s(array)
+  array.each_with_index do |item, index|
+    if index == 1
+      index += 1
+    else
+      item << "s"
+    end
+end
