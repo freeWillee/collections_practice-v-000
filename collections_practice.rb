@@ -26,3 +26,7 @@ def sort_array_char_count(string_array)
     end
   end
 end
+
+def swap_elements(array)
+  
+end
